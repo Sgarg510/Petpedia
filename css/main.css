@@ -1,0 +1,26 @@
+@import url("animal.css");
+html {
+  height: 100%; }
+
+body, nav {
+  background: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12) fixed; }
+
+nav {
+  font-size: 18pt; }
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%; }
+
+@media (max-width: 579px) {
+  h1 {
+    text-decoration: underline;
+    text-decoration-color: #ffffff; } }
+
+/*# sourceMappingURL=main.css.map */

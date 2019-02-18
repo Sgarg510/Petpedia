@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.details{
+	font-family:"DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+.link,.link:active,.link:hover,.link:visited{
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+@media (max-width:576px){
+	img{
+		width:"100%";
+	}
+}

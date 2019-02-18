@@ -1,0 +1,16 @@
+.dog,.cat,.hamster,.rabbit{
+	font-weight: bold ;
+	text-align: center;
+	height: 400px;
+	font-size: 48pt;
+}
+#onhoverd, #onhoverc, #onhoverh, #onhoverr {
+  display: none;
+}
+#surroundd:hover span[id="initiald"],#surroundc:hover span[id="initialc"],#surroundh:hover span[id="initialh"],#surroundr:hover span[id="initialr"] {
+  display: none;
+}
+#surroundd:hover span[id="onhoverd"],#surroundc:hover span[id="onhoverc"],#surroundh:hover span[id="onhoverh"],#surroundr:hover span[id="onhoverr"] {
+  display: block;
+}
+

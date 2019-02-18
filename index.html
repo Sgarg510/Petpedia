@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>Petpedia</title>
+		<link rel="icon" href="images/logo.png">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Petpedia</title>
+		<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+		<style type="text/css">
+			@import url("css/main.css");
+			@import url("css/home.css");
+		</style>
+    </head>
+    <body>
+      <!-- body code goes here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="40px" alt="Logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home &nbsp;&nbsp;<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pets&nbsp; &nbsp; &nbsp; &nbsp; </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="pages/Dog.html">Dog</a>
+          <a class="dropdown-item" href="pages/Rabbit.html">Rabbit</a>
+		  <a class="dropdown-item" href="pages/Hamster.html">Hamster</a>
+		  <a class="dropdown-item" href="pages/Cat.html">Cat</a>
+		</div>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <div class="container-fluid text-white text-center" >
+      <br>
+      <h1>Hello, Welcome to Petpedia.</h1>
+      <br>
+          <br><br><br><br>
+          <h3>Choose a pet:<br>
+        <br>
+      </h3>
+  <div class="row animals d-flex justify-content-center">
+    <div id="surroundd" class="col-xl-3 col-md-6 col-sm-12 dog bg-primary fill">
+      <br>
+		
+      <span id="initiald">Dog</span>
+	  <span id="onhoverd"><a href="pages/Dog.html"><img src="images/dog.jpeg" alt="dog"></a></span>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 bg-secondary cat fill" id="surroundr">
+      <br>
+      <span id="initialr">Rabbit</span>
+	  <span id="onhoverr"><a href="pages/Rabbit.html"><img src="images/rabbit.jpg" alt="rabbit"></a></span>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 bg-success hamster fill" id="surroundh">
+      <br>
+      <span id="initialh">Hamster</span>
+	  <span id="onhoverh"><a href="pages/Hamster.html"><img src="images/hamster.jpg" alt="hamster"></a></span>
+    </div>
+    <div id="surroundc" class="col-xl-3 col-md-6 col-sm-12 bg-dark rabbit fill">
+      <br>
+      <span id="initialc">Cat</span>
+	  <span id="onhoverc"><a href="pages/Cat.html"><img src="images/cat.jpg" alt="cat"></a></span>
+    </div>
+  </div>
+	<div class="col-12 text-white align-content-center bg-info" style="bottom:0; position: fixed;">
+			Siddharth Garg @Sgarg510(Github)
+	</div>
+        </div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
+</html>
